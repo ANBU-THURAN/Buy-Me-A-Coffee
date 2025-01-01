@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-//Deployed to Sepolia : 0xCdE615E56A3f97A97034b55f0C8FE960e3965a04
+//Deployed to Sepolia : 0xD6c45474873fC6f8eD29307F261A6514346Eb615
 
 contract BuyMeACoffee {
     //Event to emit when memo is created
