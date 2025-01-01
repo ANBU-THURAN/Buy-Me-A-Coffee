@@ -2,6 +2,8 @@
 
 pragma solidity ^0.8.0;
 
+//Deployed to Sepolia : 0xCdE615E56A3f97A97034b55f0C8FE960e3965a04
+
 contract BuyMeACoffee {
     //Event to emit when memo is created
     event NewMemo(
@@ -64,5 +66,12 @@ contract BuyMeACoffee {
     */
     function getMemos() public view returns(Memo[] memory) {
         return memos;
+    }
+
+    /**
+    * @dev returns the owner of the contract
+    */
+    function getOwner() public view returns(address) {
+        return owner;
     }
 }
